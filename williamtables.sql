@@ -1,3 +1,7 @@
+CREATE DATABASE sensor_data;
+
+USE sensor_data;
+
 CREATE TABLE sensor (
 sensor_ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 name varchar(4),
